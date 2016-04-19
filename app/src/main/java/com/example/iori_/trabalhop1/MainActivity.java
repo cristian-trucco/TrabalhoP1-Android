@@ -46,11 +46,12 @@ public class MainActivity extends AppCompatActivity {
                     login_user.setText("");
                     camposenha.setText("");
 
+                    Intent activity2 = new Intent(MainActivity.this, Main22Activity.class);
+                    startActivity(activity2);
 
                 }
 
-                Intent activity2 = new Intent(MainActivity.this, Main22Activity.class);
-                startActivity(activity2);
+
 
             }
         });

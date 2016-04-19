@@ -31,10 +31,11 @@ public class Main22Activity extends ActionBarActivity {
             //login_user = (EditText) findViewById(R.id.login_user);
             //camposenha = (EditText) findViewById(R.id.camposenha);
 
-            botaoVoltar = (Button) findViewById(R.id.botaoVoltar);
+            //botaoVoltar = (Button) findViewById(R.id.botaoVoltar);
 
-           Intent botaoVoltar = new Intent(getApplicationContext(),
-                   MainActivity.class);
+
+           //Intent botaoVoltar = new Intent(getApplicationContext(),
+            //       MainActivity.class);
 
 
 
