@@ -1,5 +1,6 @@
 package com.example.iori_.trabalhop1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -47,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }
+
+                Intent activity2 = new Intent(MainActivity.this, Main22Activity.class);
+                startActivity(activity2);
 
             }
         });
